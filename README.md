@@ -186,7 +186,7 @@ ResponsiveNav(
 <!-- Badges URLs -->
 
 [package_svg]: https://img.shields.io/pub/v/responsive_navigation.svg?color=blueviolet
-[license_svg]: https://img.shields.io/github/license/OutdatedGuy/responsive_navigation.svg?color=purple
+[license_svg]: https://img.shields.io/github/license/OutdatedGuy/responsive_navigation?color=purple
 [lints_svg]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/responsive_navigation.svg
 [pr_svg]: https://img.shields.io/github/issues-pr/OutdatedGuy/responsive_navigation.svg
