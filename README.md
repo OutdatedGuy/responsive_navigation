@@ -19,7 +19,7 @@ Get your awesome app to work on all devices with this responsive navigation libr
 | ------------------------------------------- | ------------------------------------------- |
 | ![Nav on Large screens][very_large_screens] | ![Slim nav on Large screens][slim_nav_rail] |
 
-| Crowded Navigation                  | Scrollable Vertical Navigation               |
+| Crowded Navigation                  | Scrollable Side Navigation                   |
 | ----------------------------------- | -------------------------------------------- |
 | ![Nav with many items][crowded_nav] | ![Side nav for short height][scrollable_nav] |
 
@@ -39,7 +39,7 @@ import 'package:responsive_navigation/responsive_navigation.dart';
 
 ## Usage
 
-#### Simple Responsive Navigation
+#### Normal Responsive Navigation
 
 ```dart
 ResponsiveNav(
@@ -58,6 +58,92 @@ ResponsiveNav(
     ),
   ],
   child: Scaffold(
+    appBar: AppBar(
+      title: Text('Normal Responsive Navigation'),
+    ),
+    body: Center(
+      child: Text('Hello World'),
+    ),
+  ),
+);
+```
+
+#### Navigation Under AppBar
+
+```dart
+ResponsiveNav(
+  items: [
+    NavItem(
+      icon: Icon(Icons.home),
+      label: 'Home',
+    ),
+    NavItem(
+      icon: Icon(Icons.search),
+      label: 'Search',
+    ),
+    NavItem(
+      icon: Icon(Icons.settings),
+      label: 'Settings',
+    ),
+  ],
+  appBar: AppBar(
+    title: Text('Navigation Under AppBar'),
+  ),
+  child: Scaffold(
+    body: Center(
+      child: Text('Hello World'),
+    ),
+  ),
+);
+```
+
+#### Slim Navigation all the Time
+
+```dart
+ResponsiveNav(
+  items: [
+    NavItem(
+      icon: Icon(Icons.home),
+      label: 'Home',
+    ),
+    NavItem(
+      icon: Icon(Icons.search),
+      label: 'Search',
+    ),
+    NavItem(
+      icon: Icon(Icons.settings),
+      label: 'Settings',
+    ),
+  ],
+  shouldExtend: false,
+  child: Scaffold(
+    appBar: AppBar(
+      title: Text('Slim Navigation all the Time'),
+    ),
+    body: Center(
+      child: Text('Hello World'),
+    ),
+  ),
+);
+```
+
+#### Crowded Navigation
+
+```dart
+ResponsiveNav(
+  items: [
+    NavItem(icon: const Icon(Icons.home), label: 'Home'),
+    NavItem(icon: const Icon(Icons.search), label: 'Search'),
+    NavItem(icon: const Icon(Icons.person), label: 'Account'),
+    NavItem(icon: const Icon(Icons.shopping_cart), label: 'Cart'),
+    NavItem(icon: const Icon(Icons.settings), label: 'Settings'),
+    NavItem(icon: const Icon(Icons.logout), label: 'Logout'),
+    NavItem(icon: const Icon(Icons.help), label: 'Help'),
+  ],
+  child: Scaffold(
+    appBar: AppBar(
+      title: Text('Crowded Navigation'),
+    ),
     body: Center(
       child: Text('Hello World'),
     ),
