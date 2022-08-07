@@ -28,7 +28,7 @@ Get your awesome app to work on all devices with this responsive navigation libr
 #### Add to Dependencies
 
 ```yaml
-responsive_navigation: ^1.0.0
+responsive_navigation: ^1.0.0+1
 ```
 
 #### Import the package
