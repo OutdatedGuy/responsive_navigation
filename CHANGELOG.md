@@ -1,3 +1,10 @@
+## 1.0.1
+
+- DOCS: show closed issue count in readme
+- DOCS: updated package description
+- FIX: linting package not added as dev dependency
+- DOCS: use relative blob file path in readme url
+
 ## 1.0.0+1
 
 - DOCS: added more examples in readme
