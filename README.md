@@ -3,7 +3,7 @@
 A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices.
 
 [![pub package][package_svg]](https://pub.dev/packages/responsive_navigation)
-[![GitHub][license_svg]](https://pub.dev/packages/responsive_navigation/license)
+[![GitHub][license_svg]](LICENSE)
 [![style: very good analysis][lints_svg]](https://pub.dev/packages/very_good_analysis)
 
 [![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/responsive_navigation/issues)
