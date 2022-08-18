@@ -7,7 +7,7 @@ Get your awesome app to work on all devices with this responsive navigation libr
 [![style: very good analysis][lints_svg]](https://pub.dev/packages/very_good_analysis)
 
 [![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/responsive_navigation/issues)
-[![GitHub issues][pr_svg]](https://github.com/OutdatedGuy/responsive_navigation/pulls)
+[![GitHub issues closed][issues_closed_svg]](https://github.com/OutdatedGuy/responsive_navigation/issues?q=is%3Aissue+is%3Aclosed)
 
 <hr />
 
@@ -189,7 +189,7 @@ ResponsiveNav(
 [license_svg]: https://img.shields.io/github/license/OutdatedGuy/responsive_navigation.svg?color=purple
 [lints_svg]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/responsive_navigation.svg
-[pr_svg]: https://img.shields.io/github/issues-pr/OutdatedGuy/responsive_navigation.svg
+[issues_closed_svg]: https://img.shields.io/github/issues-closed/OutdatedGuy/responsive_navigation.svg?color=green
 
 <!-- Gifs URLs -->
 
