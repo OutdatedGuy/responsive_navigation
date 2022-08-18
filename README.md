@@ -1,6 +1,6 @@
 # Responsive Navigation
 
-Get your awesome app to work on all devices with this responsive navigation library.
+A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices.
 
 [![pub package][package_svg]](https://pub.dev/packages/responsive_navigation)
 [![GitHub][license_svg]](https://pub.dev/packages/responsive_navigation/license)
