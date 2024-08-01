@@ -27,7 +27,7 @@ A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices
 #### Add to Dependencies
 
 ```yaml
-responsive_navigation: ^1.0.1
+responsive_navigation: ^1.1.0
 ```
 
 #### Import the package
