@@ -70,7 +70,7 @@ class AnimatedNavBar extends StatelessWidget {
       data: Theme.of(context).copyWith(
         navigationBarTheme: NavigationBarThemeData(
           indicatorColor: navigationStyle.indicatorColor,
-          labelTextStyle: MaterialStateProperty.all<TextStyle?>(
+          labelTextStyle: WidgetStateProperty.all<TextStyle?>(
             navigationStyle.labelTextStyle,
           ),
           backgroundColor: navigationStyle.backgroundColor,
