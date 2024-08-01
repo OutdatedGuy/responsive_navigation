@@ -1,6 +1,6 @@
-# example
+# responsive_navigation_example
 
-A new Flutter project.
+Demonstrates how to use the responsive_navigation package.
 
 ## Getting Started
 

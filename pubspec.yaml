@@ -1,11 +1,11 @@
 name: responsive_navigation
-description: A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices.
+description: "A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices."
 version: 1.0.1
 homepage: https://outdatedguy.rocks
 repository: https://github.com/OutdatedGuy/responsive_navigation
 
 environment:
-  sdk: ">=2.17.5 <3.0.0"
+  sdk: '>=2.17.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,10 +13,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-  very_good_analysis: ^3.0.1
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
