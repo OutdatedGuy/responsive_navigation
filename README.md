@@ -2,12 +2,11 @@
 
 A HOLISTIC approach to get your Bleeding Edge flutter app to work on all devices.
 
-[![pub package][package_svg]](https://pub.dev/packages/responsive_navigation)
+[![pub package][package_svg]][package]
 [![GitHub][license_svg]](LICENSE)
-[![style: very good analysis][lints_svg]](https://pub.dev/packages/very_good_analysis)
 
-[![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/responsive_navigation/issues)
-[![GitHub issues closed][issues_closed_svg]](https://github.com/OutdatedGuy/responsive_navigation/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues][issues_svg]][issues]
+[![GitHub issues closed][issues_closed_svg]][issues_closed]
 
 <hr />
 
@@ -183,6 +182,8 @@ ResponsiveNav(
 );
 ```
 
+### If you liked the package, then please give it a [Like 👍🏼][package] and [Star ⭐][repository]
+
 <!-- Badges URLs -->
 
 [package_svg]: https://img.shields.io/pub/v/responsive_navigation.svg?color=blueviolet
@@ -199,3 +200,10 @@ ResponsiveNav(
 [slim_nav_rail]: https://user-images.githubusercontent.com/74326345/183288747-2d4ad2d2-0850-43c4-9057-b77291f95927.gif
 [crowded_nav]: https://user-images.githubusercontent.com/74326345/183288877-be4660ce-e085-4b43-a2ed-c7675385a0ba.gif
 [scrollable_nav]: https://user-images.githubusercontent.com/74326345/183288882-13d6a410-bc78-419a-bd17-c6dd6f7d0dd9.gif
+
+<!-- Links -->
+
+[package]: https://pub.dev/packages/responsive_navigation
+[repository]: https://github.com/OutdatedGuy/responsive_navigation
+[issues]: https://github.com/OutdatedGuy/responsive_navigation/issues
+[issues_closed]: https://github.com/OutdatedGuy/responsive_navigation/issues?q=is%3Aissue+is%3Aclosed
